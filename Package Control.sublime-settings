@@ -1,0 +1,16 @@
+{
+	"auto_upgrade_last_run": 1346938339,
+	"installed_packages":
+	[
+		"Alignment",
+		"Case Conversion",
+		"Cucumber",
+		"Git",
+		"jQuery Snippets pack",
+		"LaTeXTools",
+		"Package Control",
+		"RubyTest",
+		"SublimeCodeIntel",
+		"Terminal"
+	]
+}

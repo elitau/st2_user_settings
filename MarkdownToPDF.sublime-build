@@ -1,0 +1,5 @@
+{
+  "cmd": ["markdown2pdf", "--output=$file.pdf", "$file"],
+  "selector": "source.md",
+  "path": "/usr/local/bin:/usr/texbin:$PATH"
+}

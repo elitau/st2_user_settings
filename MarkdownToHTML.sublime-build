@@ -1,0 +1,5 @@
+{
+  "cmd": ["pandoc", "-s", "--to=html", "--output=$file.html", "$file"],
+  "selector": "source.md",
+  "path": "/usr/local/bin"
+}
