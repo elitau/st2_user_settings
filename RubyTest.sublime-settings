@@ -2,7 +2,7 @@
   "erb_exec": "bundle exec erb",
   "ruby_unit_exec": "$HOME/.rvm/bin/rvm-auto-ruby",
   "ruby_cucumber_exec": "$HOME/.rvm/bin/rvm-auto-ruby bin/cucumber -f pretty",
-  "ruby_rspec_exec": "/Users/elitau/.rvm/bin/rvm-auto-ruby bin/rspec --format progress",
+  "ruby_rspec_exec": "$HOME/.rvm/bin/rvm-auto-ruby bin/rspec --format progress",
 
   "ruby_unit_folder": "test",
   "ruby_cucumber_folder": "features",
