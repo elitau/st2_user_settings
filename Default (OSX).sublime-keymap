@@ -14,5 +14,24 @@
     {
       "contents": "${TM_COMMENT_START/s*$//} ==${1/./=/g}==${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//} = ${1:Banner} =${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//} ==${1/./=/g}==${TM_COMMENT_END/^s*(.+)/ $1/}"
     }
+  },
+  // { "keys": ["super+shift+alt+t"], "command": "open_terminal" },
+  { "keys": ["super+shift+alt+ctrl+t"], "command": "open_terminal_project_folder" },
+
+  // run tests
+  {
+    "keys": ["super+shift+t"],
+    "command": "run_tests",
+    "args": {"scope": "file"}
+  },
+  {
+    "keys": ["super+shift+r"],
+    "command": "run_tests",
+    "args": {"scope": "line"}
+  },
+  {
+    "keys": ["super+shift+e"],
+    "command": "run_tests",
+    "args": {"scope": "last"}
   }
 ]
