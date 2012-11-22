@@ -9,5 +9,6 @@
   "ruby_rspec_folder": "spec",
 
   "ruby_use_scratch" : false,
-  "save_on_run": true
+  "save_on_run": true,
+  "ignored_directories": [".rsync_cache"]
 }
