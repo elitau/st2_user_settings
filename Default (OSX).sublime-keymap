@@ -33,5 +33,62 @@
     "keys": ["super+shift+e"],
     "command": "run_tests",
     "args": {"scope": "last"}
+  },
+  { "keys": ["alt+super+'"], "command": "toggle_symbol" },
+
+  // Split windows, 2 panes, left - right
+  // left 33%, right 66%
+  {
+    "keys": ["super+alt+left"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.33, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+  // left 66%, right 33%
+  {
+    "keys": ["super+alt+right"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.66, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+
+  // Split windows, 4 panes, left/right 50 %
+  // top 66%, right 33%
+  {
+    "keys": ["super+alt+up"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 0.66, 1.0],
+      "cells":
+      [
+        [0, 0, 1, 1], [1, 0, 2, 1],
+        [0, 1, 1, 2], [1, 1, 2, 2]
+      ]
+    }
+  },
+  // top 33%, right 66%
+  {
+    "keys": ["super+alt+down"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 0.33, 1.0],
+      "cells":
+      [
+        [0, 0, 1, 1], [1, 0, 2, 1],
+        [0, 1, 1, 2], [1, 1, 2, 2]
+      ]
+    }
   }
 ]
