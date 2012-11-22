@@ -131,7 +131,7 @@ class RunTests(sublime_plugin.TextCommand):
 
   def run_spec(self, root_path, path):
     self.run_in_terminal('cd ' + root_path)
-    self.run_in_terminal('bundle exec rspec ' + path)
+    self.run_in_terminal('bundle exec rspec --drb -d ' + path)
     self.focus_st2()
 
   def run_in_terminal(self, command):
