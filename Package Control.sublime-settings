@@ -1,8 +1,9 @@
 {
-	"auto_upgrade_last_run": 1348263756,
+	"auto_upgrade_last_run": 1353501973,
 	"installed_packages":
 	[
 		"Alignment",
+		"BeautifyRuby",
 		"Case Conversion",
 		"Cucumber",
 		"Git",
@@ -10,6 +11,7 @@
 		"LaTeXTools",
 		"Package Control",
 		"RubyTest",
+		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"Terminal"
 	]
