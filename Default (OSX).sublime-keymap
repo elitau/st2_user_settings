@@ -63,7 +63,7 @@
   // Split windows, 4 panes, left/right 50 %
   // top 66%, right 33%
   {
-    "keys": ["super+alt+up"],
+    "keys": ["super+alt+down"],
     "command": "set_layout",
     "args":
     {
@@ -78,7 +78,7 @@
   },
   // top 33%, right 66%
   {
-    "keys": ["super+alt+down"],
+    "keys": ["super+alt+up"],
     "command": "set_layout",
     "args":
     {
