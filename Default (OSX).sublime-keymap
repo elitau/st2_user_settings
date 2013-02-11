@@ -90,5 +90,63 @@
         [0, 1, 1, 2], [1, 1, 2, 2]
       ]
     }
+  },
+  // top 66%, left 66%
+  {
+    "keys": ["shift+super+alt+down"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.66, 1.0],
+      "rows": [0.0, 0.66, 1.0],
+      "cells":
+      [
+        [0, 0, 1, 1], [1, 0, 2, 1],
+        [0, 1, 1, 2], [1, 1, 2, 2]
+      ]
+    }
+  },
+  // top 66%, right 66%
+  {
+    "keys": ["shift+super+alt+up"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.33, 1.0],
+      "rows": [0.0, 0.66, 1.0],
+      "cells":
+      [
+        [0, 0, 1, 1], [1, 0, 2, 1],
+        [0, 1, 1, 2], [1, 1, 2, 2]
+      ]
+    }
+  },// top 33%, right 66%
+  {
+    "keys": ["shift+super+alt+right"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.33, 1.0],
+      "rows": [0.0, 0.33, 1.0],
+      "cells":
+      [
+        [0, 0, 1, 1], [1, 0, 2, 1],
+        [0, 1, 1, 2], [1, 1, 2, 2]
+      ]
+    }
+  },// top 33%, left 66%
+  {
+    "keys": ["shift+super+alt+left"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.66, 1.0],
+      "rows": [0.0, 0.33, 1.0],
+      "cells":
+      [
+        [0, 0, 1, 1], [1, 0, 2, 1],
+        [0, 1, 1, 2], [1, 1, 2, 2]
+      ]
+    }
   }
 ]
