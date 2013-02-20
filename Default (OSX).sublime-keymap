@@ -18,6 +18,9 @@
   // { "keys": ["super+shift+alt+t"], "command": "open_terminal" },
   { "keys": ["super+shift+alt+ctrl+t"], "command": "open_terminal_project_folder" },
 
+  // Open GitX
+  { "keys": ["shift+ctrl+g"], "command": "gitx_open" },
+
   // run tests
   {
     "keys": ["super+shift+t"],
