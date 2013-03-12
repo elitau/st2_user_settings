@@ -16,6 +16,7 @@
     }
   },
   // { "keys": ["super+shift+alt+t"], "command": "open_terminal" },
+  // Open Terminal
   { "keys": ["super+shift+alt+ctrl+t"], "command": "open_terminal_project_folder" },
 
   // Open GitX
