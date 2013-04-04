@@ -7,16 +7,21 @@
 		"Case Conversion",
 		"Cucumber",
 		"DashDoc",
+		"Gist",
 		"Git",
 		"GitGutter",
 		"HtmlTidy",
+		"Http Requester",
 		"jQuery Snippets pack",
 		"LaTeXTools",
 		"Package Control",
 		"RubyTest",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
+		"SublimeLinter",
 		"SublimeTextGitX",
-		"Terminal"
+		"SublimeXiki",
+		"Terminal",
+		"TomDoc+"
 	]
 }
