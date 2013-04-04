@@ -4,9 +4,11 @@
   { "keys": ["super+shift+["], "command": "prev_view" },
   { "keys": ["super+shift+]"], "command": "next_view" },
   { "keys": ["super+shift+c"], "command": "copy_path_to_clipboard" },
+  { "keys": ["alt+super+z"], "command": "reopen_last_file" },
   
   { "keys": ["super+shift+v"], "command": "paste" },
   { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["ctrl+j"], "command": "join_lines" },
   { 
     "keys": ["ctrl+shift+b"], 
     "command": "insert_snippet", 
@@ -152,5 +154,12 @@
         [0, 1, 1, 2], [1, 1, 2, 2]
       ]
     }
-  }
+  },
+
+  //Move File to group with ALT+Number
+  { "keys": ["alt+1"], "command": "move_to_group", "args": { "group": 0 } },
+  { "keys": ["alt+2"], "command": "move_to_group", "args": { "group": 1 } },
+  { "keys": ["alt+3"], "command": "move_to_group", "args": { "group": 2 } },
+  { "keys": ["alt+4"], "command": "move_to_group", "args": { "group": 3 } }
+  
 ]
